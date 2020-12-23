@@ -1,4 +1,4 @@
-local function ZkrfSpyder(msg)
+local function Zkrf(msg)
 local text = msg.content_.text_
 
 if text == "تعطيل الزخرفه" and Owner(msg) then
@@ -23,5 +23,5 @@ send(msg.chat_id_, msg.id_, t..'ٴ○━━━l━━━○ٴ\n⌔︙اضغط ع
 end
 end
 return {
-Spyder = ZkrfSpyder
+Spyder = Zkrf
 }
