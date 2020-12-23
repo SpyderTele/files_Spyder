@@ -1,4 +1,4 @@
-local function Reply(msg)
+local function ZkrfSpyder(msg)
 local text = msg.content_.text_
 if not database:get(bot_id..'Spyder:ZkrfSpyder:Mute'..msg.chat_id_) then
 
