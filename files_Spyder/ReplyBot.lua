@@ -36,16 +36,6 @@ TextReply = 'هايـات يعمري ☹️💗.'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
-if text == '@VlVlVI' then
-TextReply = 'شـبي هذا مطور السورس 🤔💘.'
-send(msg.chat_id_, msg.id_,'['..TextReply..']')
-return false
-end
-if text == '@A_5_Y_7' then
-TextReply = 'شـبي هذا مطور السورس 🤔💘.'
-send(msg.chat_id_, msg.id_,'['..TextReply..']')
-return false
-end
 if text == 'لتزحف' then
 TextReply = 'خطية عوفة لخاطري 🤣.'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
