@@ -37,7 +37,7 @@ send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
 if text == 'بوت' then
-TextReply = 'وياك حامي ݪڪࢪوب 🥶💙'
+TextReply = ' تفضـل حـپـي 🌝💚 ؟'
 send(msg.chat_id_, msg.id_,'['..TextReply..']')
 return false
 end
