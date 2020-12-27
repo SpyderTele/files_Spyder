@@ -1,4 +1,4 @@
-local function Twh(msg)
+local function Twhed(msg)
 local text = msg.content_.text_
 if database:get(bot_id.."kt:twh:stats"..msg.chat_id_) == "open" then
 function getUser(user_id, cb)
@@ -55,5 +55,5 @@ end
 end
 end
 return {
-Spyder = Twh,
+Spyder = Twhed,
 }
